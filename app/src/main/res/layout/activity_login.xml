@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D6157C"
+    android:backgroundTint="#D6157C"
     android:orientation="vertical"
     android:padding="16dp"
     android:textStyle="bold"
@@ -12,18 +14,18 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="     Login    "
-        android:textStyle="bold|italic"
         android:layout_margin="17dp"
+        android:text="     Login    "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="50dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textStyle="bold|italic" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Email id: "
-        android:textStyle="bold"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/edit_text_Eid"
@@ -35,8 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Password: "
-        android:textStyle="bold"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/edit_text_Pwd"
@@ -54,7 +56,6 @@
         android:id="@+id/ForgotPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Forgot Password?"
-        />
+        android:text="Forgot Password?" />
 </LinearLayout>
 
