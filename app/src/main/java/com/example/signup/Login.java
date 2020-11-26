@@ -57,7 +57,7 @@ public class Login extends AppCompatActivity {
                     return;
                 }
                 if(Password.length() < 6) {
-                    password.setError("Password should be longer than 6 characters");
+                    password.setError("Password should be longer than 6 characters. Please try again");
                     return;
                 }
                 fAuth.signInWithEmailAndPassword(Email,Password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
