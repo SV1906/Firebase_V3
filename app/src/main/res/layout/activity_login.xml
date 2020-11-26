@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D6157C"
+    android:background="#2D2F31"
     android:backgroundTint="#D6157C"
     android:orientation="vertical"
     android:padding="16dp"
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="17dp"
-        android:text="     Login    "
+        android:text="     Login  "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="50dp"
         android:textStyle="bold|italic" />

@@ -12,7 +12,7 @@
         android:textStyle="bold|italic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="  Choose: "
+        android:text="  Please Choose one of the following : "
         android:layout_margin="50dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     <Button
