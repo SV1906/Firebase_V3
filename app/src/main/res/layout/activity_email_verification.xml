@@ -42,5 +42,13 @@
         tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="62dp" />
 
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="97dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
